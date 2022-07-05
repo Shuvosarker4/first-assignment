@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*  hero section start */
+.top-banner{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./image/hero-bg.jpg); /* i was try to add linear gradient on the BG image also see some YT video  but i cant do it properply,it wasnt show on my page */
+
+    /* opacity: 0.8; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.top-banner-heading{
+    font-size: 65px;
+    color: #ffffff;
+}
+.top-banner-para{
+    font-size: 19px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: hsl(0, 93%, 65%);
+    padding: 15px 13px;
+    border-radius: 6px;
+}
+
+/*  hero section end */
+
+/*  donate section start */
+
+
+
+
