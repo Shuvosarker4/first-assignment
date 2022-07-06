@@ -122,13 +122,16 @@ body{
 
 }
 .food-div{
-background-color: rgba(79, 157, 166, 0.1);;
+background-color: rgba(79, 157, 166, 0.1);
+border-radius: 6px;
 }
 .shelter-div{
     background-color: rgba(255, 89, 89, 0.1);
+    border-radius: 6px;
 }
 .education-div{
    background-color: rgba(238, 198, 149, 0.63);
+   border-radius: 6px;
 }
 .icon{
     padding-top: 20px;
@@ -139,3 +142,37 @@ background-color: rgba(79, 157, 166, 0.1);;
     padding-right: 120px;
     margin-bottom: 30px;
 }
+/* donate plan area end */
+
+/* depend section start */
+.hero-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.hero-2{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.text-area{
+    width: 50%;
+}
+.image-area{
+    width: 50%;
+}
+.image-area img{
+    width: 60%;
+    border-radius: 8px;
+    
+}
+.depend-heading{
+    font-size: 45px;
+}
+.depend-para{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+/* depend section end */
