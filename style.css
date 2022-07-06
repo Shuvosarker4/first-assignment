@@ -173,6 +173,66 @@ border-radius: 6px;
     font-size: 18px;
     margin-bottom: 30px;
 }
-
-
 /* depend section end */
+
+/*---update section start---*/
+ .update-area{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 130px;
+ }
+
+ .update-text{
+    height: 30%;
+    width: 100%;
+    margin-top: 60px;
+ }
+
+ .update-form{
+    height: 70%;
+    width: 100%;
+    
+ }
+.background{
+    width: 750px;
+    height: 200px;
+    background-color: rgba(238, 198, 149, 0.63);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.input-field2{
+   outline: none;
+   padding: 15px 13px;
+   border-radius: 6px;
+   border: none;
+   background-color: #D9D9D9;
+}
+.btn2{
+    text-decoration: none;
+    color: white;
+    background-color: hsl(0, 93%, 65%);
+    padding: 10px 13px;
+    border-radius: 6px;
+}
+
+/*---update section end---*/
+
+
+/*---footer section end---*/
+footer{
+    height: 20vh;
+    width: 100vw;
+    background-color: black;
+}
+.footer-text{
+    color: #fe5959;
+    text-align: center;
+    padding-top: 50px;
+}
+strong{
+    color: #fafafa;
+}
+/*---footer section end---*/
